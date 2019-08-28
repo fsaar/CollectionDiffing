@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Swift-5-orange.svg)
+[![Travis Build Status](https://api.travis-ci.org/fsaar/CollectionDiffing.svg?branch=master)](https://travis-ci.org/fsaar/CollectionDiffing) 
 
 # Collection Diffing
 
-A sample demo and dummy mac app to provide an implementation for my custom collection diffing algorithm I talked about in my [blog] (https://www.allaboutswift.com/dev/2019/8/27/custom-collection-diffing).
-I could have created a framework for this but decided to do it with this quick and dirty approach due to Swift 5's support of Collection Diffing.
+A sample demo and dummy mac app to provide an implementation for my custom collection diffing algorithm I talk about in my [blog] (https://www.allaboutswift.com).
+I could have created a framework for this but decided instead to do it with this quick and dirty approach due to Swift 5's support of Collection Diffing. 
 
 ## How does it work
 
@@ -63,6 +64,6 @@ As mentioned above, having identified inserted, deleted and moved elements, the 
 ## Conclusion
 
 To see the algorithm in action check out [iOS app](https://apps.apple.com/gb/app/bus-stops/id1177594684) in the Appstore which still uses this algorithm (up to version 1.3). The app visualises arriving buses for nearby bus stops in the London area.
-The source code can be found [here](https://). It's bundled in a sample mac app. To ensure correctness of the algorithm, I backed it up with 20+ tests that can also be found there. 
+To ensure correctness of the algorithm, I backed it up with 20+ tests that can also be found here. 
 
 
