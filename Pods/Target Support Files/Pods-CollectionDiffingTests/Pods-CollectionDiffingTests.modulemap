@@ -1,0 +1,6 @@
+module Pods_CollectionDiffingTests {
+  umbrella header "Pods-CollectionDiffingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
