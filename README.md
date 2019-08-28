@@ -3,8 +3,8 @@
 
 # Collection Diffing
 
-A sample demo and dummy mac app to provide an implementation for my custom collection diffing algorithm I talk about in my [blog] (https://www.allaboutswift.com).
-I could have created a framework for this but decided instead to do it with this quick and dirty approach due to Swift 5's support of Collection Diffing. 
+A sample demo and dummy mac app to provide an implementation for my custom collection diffing algorithm I talk about in my [blog](https://www.allaboutswift.com).
+I could have created a framework for this but decided instead to do it with this quick and dirty approach due to Swift 5's support for Collection Diffing. 
 
 ## How does it work
 
