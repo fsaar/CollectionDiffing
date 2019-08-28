@@ -12,8 +12,8 @@
 		563F49262315C80E00C27B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F49252315C80E00C27B92 /* ViewController.swift */; };
 		563F49282315C81000C27B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563F49272315C81000C27B92 /* Assets.xcassets */; };
 		563F492B2315C81000C27B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563F49292315C81000C27B92 /* Main.storyboard */; };
-		563F49422315C90800C27B92 /* CollectionDiffingSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F49412315C90800C27B92 /* CollectionDiffingSpecs.swift */; };
 		563F49442315C91E00C27B92 /* Collection+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F49432315C91E00C27B92 /* Collection+Transform.swift */; };
+		56BCA5DF2317346100AF3FEC /* CollectionDiffingSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BCA5DE2317346100AF3FEC /* CollectionDiffingSpecs.swift */; };
 		DD8D1A39FDA5F8757AA15881 /* libPods-CollectionDiffingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2909C3B040E58FF5A734C8ED /* libPods-CollectionDiffingTests.a */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +38,8 @@
 		563F492D2315C81000C27B92 /* CollectionDiffing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CollectionDiffing.entitlements; sourceTree = "<group>"; };
 		563F49322315C81000C27B92 /* CollectionDiffingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionDiffingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		563F49382315C81000C27B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		563F49412315C90800C27B92 /* CollectionDiffingSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionDiffingSpecs.swift; path = ../../../../Downloads/CollectionDiffingSpecs.swift; sourceTree = "<group>"; };
 		563F49432315C91E00C27B92 /* Collection+Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Transform.swift"; sourceTree = "<group>"; };
+		56BCA5DE2317346100AF3FEC /* CollectionDiffingSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDiffingSpecs.swift; sourceTree = "<group>"; };
 		77B3CCF4ED57D21D5870649B /* Pods-CollectionDiffingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionDiffingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionDiffingTests/Pods-CollectionDiffingTests.release.xcconfig"; sourceTree = "<group>"; };
 		7F6F556DA188CB0A89EA0195 /* Pods-CollectionDiffing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionDiffing.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionDiffing/Pods-CollectionDiffing.release.xcconfig"; sourceTree = "<group>"; };
 		A891D4BFAB33FACEB8FADB96 /* libPods-CollectionDiffing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollectionDiffing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 		563F49352315C81000C27B92 /* CollectionDiffingTests */ = {
 			isa = PBXGroup;
 			children = (
-				563F49412315C90800C27B92 /* CollectionDiffingSpecs.swift */,
+				56BCA5DE2317346100AF3FEC /* CollectionDiffingSpecs.swift */,
 				563F49382315C81000C27B92 /* Info.plist */,
 			);
 			path = CollectionDiffingTests;
@@ -281,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563F49422315C90800C27B92 /* CollectionDiffingSpecs.swift in Sources */,
+				56BCA5DF2317346100AF3FEC /* CollectionDiffingSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
