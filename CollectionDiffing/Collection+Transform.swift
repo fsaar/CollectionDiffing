@@ -121,7 +121,7 @@ fileprivate extension Collection where Element : Hashable{
         let unsortedNewList = try updatedList.mergeELements(with: inserted)
         let oldList = Array(self)
         let movedTypes : [(Element,Int,Int)] = updatedList.compactMap { element in
-            guard let index = oldList.firstIndex(of:element),let index2 = newList.index(of:element),index != index2 else {
+            guard let index = oldList.firstIndex(of:element),let index2 = newList.firstIndex(of:element),index != index2 else {
                 return nil
             }
             return (element,index,index2)
